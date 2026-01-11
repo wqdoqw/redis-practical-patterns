@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: redis-practical-patterns
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      timeout: 10000
+
+  cache:
+    type: redis
+    redis:
+      time-to-live: 600000  # 10 minutes in milliseconds
+      cache-null-values: false
+
+server:
+  port: 8090

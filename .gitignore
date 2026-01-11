@@ -1,0 +1,40 @@
+# Project-wide Git ignore file for a Gradle-based Java/Spring project
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Gradle
+.gradle/
+build/
+# Keep Gradle wrapper files
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Java build outputs
+out/
+*.class
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment / local config
+.env
+.env.local
+*.local.properties
+
+# Spring/Temp
+*.h2.db
+*.mv.db
+.tmp/
+.idea/vcs.xml
+/.idea
+/.gradle
